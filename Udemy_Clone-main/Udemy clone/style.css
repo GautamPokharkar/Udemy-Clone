@@ -1,0 +1,231 @@
+body
+{
+    margin : 0;
+    padding : 0;
+}
+
+header
+{
+    width : 100%;
+    max-width: 1550px;
+    margin: 0 auto;
+    
+}
+cross 
+{
+    width : 125px;
+    height : 77.2px;
+    display : flex;
+    align-items : center;
+}
+
+.Cross1:hover
+{
+   color:rgb(255, 0, 0);
+}
+
+head2
+{   justify-content: space-between;
+    display: flex;
+    height : 72px;
+    background-color: white;
+    align-items: center;
+}
+
+.Symbol
+{
+    height : 34px;
+    width : 91px;
+    margin : 1%;
+}
+
+
+.SearchBar
+{
+    width : auto;
+    height : 46px;
+    align-items:center;
+    
+}
+
+.aksa{
+    width : 360px;
+    height : 46px;
+    border : 2px solid ;
+    border-radius : 25px;
+    background-color: white;
+    display : flex;
+    align-items : center;
+    
+}
+
+icon
+{
+    margin : 0%;
+}
+
+
+text{
+    align-self: left;
+    margin: 3%;
+}
+
+.UdemyBuisness
+{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    width: 360px;
+    
+}
+
+.ShopCart
+{
+    width:48px;
+}
+
+.Login 
+{
+    width : 100px;
+    height : 40px;
+    border : 2px solid;
+    background-color: white;
+}
+
+.Login:hover
+{
+    background-color:silver;
+}
+
+.SignUp
+{
+    width : 100px;
+    height : 40px;
+    border : 2px solid;
+    background-color: black;
+    color : white;
+}
+.SignUp:hover
+{
+    background-color:rgb(65, 62, 62);
+}
+.WorldLogo
+{   
+    margin-right : 2%;
+}
+
+
+.Hind
+{
+    width:50px;
+    height:50px;
+    background-color: white;
+    border : solid;
+}
+
+.Hind:hover
+{
+    background-color:silver;
+}
+
+.Categories
+{
+    color:black;
+}
+
+.Categories:hover 
+{
+    color:purple;
+}
+
+.Plans
+{
+    color:black;
+}
+.Plans:hover
+{
+    color:purple;
+}
+
+.udemy 
+{
+    color:black;
+}
+
+.udemy:hover
+{
+    color:purple;
+}
+
+.Tech
+{
+    color:black;
+}
+
+.Tech:hover
+{
+    color:purple;
+}
+
+.Offer1
+{  
+    font-weight: bold;
+    
+}
+main {
+    width: 100%; /* Use full width */
+}
+
+.main1, .main2, .main3, .main4, .main5, .main6, .main7 {
+    width: 100%; /* Use full width */
+    display: block; /* Ensure images stack */
+}
+
+img {
+    width: 100%; /* Make images responsive */
+    height: auto; /* Maintain aspect ratio */
+}
+
+
+
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: peachpuff; 
+    padding: 10px 20px; /* Adjust padding as needed */
+    text-align: center;
+    
+}
+
+.header-bottom {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px; /* Adjust padding as needed */
+}
+
+.header-bottom div {
+    margin-right: 15px; /* Spacing between items */
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between; /* Keeps the "X" on one side */
+    align-items: center;
+    background-color: peachpuff; 
+    padding: 10px 20px; 
+    text-align: center;
+}
+
+.offer {
+    flex: 1; /* Take up remaining space */
+    display: flex; /* Make it a flex container */
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
+}
+
+.offer1, .offer2 {
+    margin: 0; /* Remove default margins */
+}
